@@ -1,10 +1,49 @@
-.vs/*
-.idea/*
-.git/*
-.sln/*
-Build/*
-DerivedDataCache/*
-Intermediate/*
-Plugins/*/Intermediate/*
-Saved/*
-Binaries/Win64/
+# Unreal Engine typical ignore list
+
+# Binaries and build intermediates
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# User-specific files
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.unsuccessfulbuild
+*.VC.db
+*.VC.VC.opendb
+
+# Mac specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.app
+*.pdb
+*.apk
+*.xcodeproj
+
+# Logs and caches
+*.log
+
+# Plugin intermediates
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Configs specific to local environment
+*.local
+
+# Optional: ignore .uproject file backups (if you make them)
+*.uproject.backup
